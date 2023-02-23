@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    border : 2px solid powderblue;
+    margin : 50px;
+    overflow: hidden;
+    background-color: #33658d;
+}
+li{
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+li:last-child{
+    background-color: rgb(52, 61, 61);
+    float:right;
+}
