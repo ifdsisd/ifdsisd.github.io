@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0077d8;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+li{
+    float:left;
+    font-size:20px;
+    padding:10px;
+
+    
+}
+li:last-child{
+    float:right;
+}
+
+li a{
+    text-decoration: none;
+    padding:10px;
+    color:white;
+
+}
+p{
+    font-size: 20px;
+}
+li a:hover{
+    background-color: rgb(155, 155, 218);
+    border-radius: 10px;
+}
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.301);
+    
+
+}
+
