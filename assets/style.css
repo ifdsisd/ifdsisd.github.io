@@ -1,21 +1,28 @@
 *{
     font-family: sans-serif;
 }
-ul{
+.top{
     list-style-type: none;
     overflow: hidden;
     background-color: #0077d8;
     font-family: sans-serif;
     border-radius: 10px;
 }
-li{
+.resume_entry{
+    border-radius: 10px;
+
+
+
+
+}
+.top_entries{
     float:left;
     font-size:20px;
     padding:10px;
 
     
 }
-li:last-child{
+.top_entries:last-child{
     float:right;
 }
 
