@@ -1,9 +1,14 @@
 *{
-    font-family: sans-serif;
+    font-family: sans-serif;   
+}
+html{
+    background-color: #a2a9ad;
 }
 .top{
     list-style-type: none;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
     background-color: #0077d8;
     font-family: sans-serif;
     border-radius: 10px;
@@ -12,7 +17,7 @@
 .top_entries{
     float:left;
     font-size:20px;
-    padding:10px;
+    padding:4px;
 
     
 }
@@ -22,28 +27,32 @@
 
 li a{
     text-decoration: none;
-    padding:10px;
+    padding:1px;
     color:white;
 
 }
 
 li a:hover{
     background-color: rgb(155, 155, 218);
+    border-radius: 10px;
+    padding:5px;
+
 }
 .entry {
-    border-radius: 4px;
+    border-radius: 10px;
     padding:5px;
+    
     border-color: #0077d8;
     transition: 0.5s ;
 
     background-color: rgb(24, 87, 204);
-    margin: 10px;
+    margin: 5px;
 }
 .entry:hover{
     background-color: rgb(24, 177, 204);
 }
 footer{
-    position:fixed;
+    position:relative;
     left:0;
     bottom:0;
     width:100%;
@@ -55,6 +64,17 @@ footer{
 footer:hover{
     background-color: aqua;
 }
+.github{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 
+}
+.github a{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 
+}
 
