@@ -2,14 +2,14 @@
     font-family: sans-serif;   
 }
 html{
-    background-color: #a2a9ad;
+    background-color: #f8f8f8;
 }
 .top{
     list-style-type: none;
     overflow: hidden;
     padding: 0;
     margin: 0;
-    background-color: #0077d8;
+    background-color: #feffff;
     font-family: sans-serif;
     border-radius: 10px;
 }
@@ -17,7 +17,7 @@ html{
 .top_entries{
     float:left;
     font-size:20px;
-    padding:4px;
+    padding:1px;
 
     
 }
@@ -28,7 +28,7 @@ html{
 li a{
     text-decoration: none;
     padding:1px;
-    color:white;
+    color:rgb(0, 0, 0);
 
 }
 
@@ -42,10 +42,10 @@ li a:hover{
     border-radius: 10px;
     padding:5px;
     
-    border-color: #0077d8;
+    border-color: #77a9d3;
     transition: 0.5s ;
 
-    background-color: rgb(24, 87, 204);
+    background-color: rgb(136, 162, 212);
     margin: 5px;
 }
 .entry:hover{
@@ -77,4 +77,6 @@ footer:hover{
     color: white;
 
 }
-
+.title{
+    text-align: center;
+}
