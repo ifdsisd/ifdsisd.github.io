@@ -30,6 +30,9 @@ html{
 li {
         text-decoration: none;
         list-style-type: none;
+        /* width: 90%; */
+        max-width: 1000px;
+        margin: 10px;
 
 
 }
